@@ -1,0 +1,178 @@
+body{
+  
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+}
+
+header{
+  text-align: justify;
+  background-color:rgb(60,60,60);
+  height:50px;
+  color: white;
+  font-size: 20px;
+  transition: uppercase;
+  padding: 30px;
+}
+
+ul{
+  list-style-type: none;
+  margin-top: 0;
+  float: right;
+  text-transform: uppercase;
+}
+
+li{
+	display: inline;
+	padding: 20px;
+	text-decoration: none;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+  }
+
+  a:hover {
+  color:blue;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#my_class{
+  background-color: black;padding-bottom: 600px;
+  margin-top: 0px;
+  font-family:'Brush Script MT', cursive;
+}
+
+
+h1{
+  font-family: Sofia, sans-serif;
+  text-shadow: 3px 3px #ababab;
+  font-size: 4.625rem;
+  color:white; position:absolute;left: 250px;top: 150px;
+  }
+
+
+  h2{
+  color:#000080 ;
+  font-family: 'Montserrat', sans-serif;
+  text-transform:uppercase;
+}
+
+
+img{
+  padding: 10px;
+  }
+
+#content_bonjour{
+  margin-top: 0px;
+  margin-right: 50;
+  background-color:rgb(255,205,250);
+}
+
+
+p{
+font-weight: bold;
+font-size:20px;
+line-height: 1.75;
+}
+
+
+.qualities{
+  columns: 3;
+}
+
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #adad85;
+  border-width: 15px;
+  width: 40%;
+  margin: 50px auto 50px auto;
+}
+
+
+#content_hobbies{
+background-color: lightpink;  
+}
+.content_hobbies{
+  text-align: left;
+  margin-left: 500px;
+}
+
+#content_skill{
+ background-color: #ddccff;
+
+}
+
+
+#about_ali{
+  background-color:  #ffd9b3;
+	}
+
+#contents_ali{
+  display: flex;
+  margin-left: 150px;
+}
+
+.contents{
+  font-family: 'Montserrat', sans-serif;
+  }
+
+
+#my_contact{
+  background-color: #ccffe6;
+}
+
+
+#my_button{
+  background-color:black;
+  padding: 10px;
+  font-size: 30px;
+  }
+
+  button:hover{
+   background: #30e3cb;
+ }
+
+
+  button{
+  background: #11cdd4;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #e8e3e8;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 500px) {
+  .contents_ali {
+    width: 100%;
+  }
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+
